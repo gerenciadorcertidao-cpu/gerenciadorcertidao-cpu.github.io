@@ -1,0 +1,194 @@
+
+      <!DOCTYPE html>
+      <html lang="pt-BR">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Checklist de Certidões do Fornecedor</title>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+          <style>
+              body {
+                  font-family: 'Roboto', sans-serif;
+                  line-height: 1.6;
+                  color: #333;
+                  max-width: 800px;
+                  margin: 20px auto;
+                  padding: 20px;
+                  background: #f4f4f4;
+                  border-radius: 8px;
+                  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+              }
+              h1 {
+                  color: #0056b3;
+                  text-align: center;
+                  border-bottom: 2px solid #0056b3;
+                  padding-bottom: 10px;
+                  margin-bottom: 20px;
+              }
+              h2 {
+                  color: #0056b3;
+                  margin-top: 25px;
+                  border-bottom: 1px dashed #0056b3;
+                  padding-bottom: 5px;
+              }
+              .section {
+                  background: #fff;
+                  padding: 15px;
+                  border-radius: 5px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ddd;
+              }
+              ul {
+                  list-style: none;
+                  padding: 0;
+              }
+              li {
+                  margin-bottom: 8px;
+                  padding-left: 20px;
+                  position: relative;
+              }
+              li::before {
+                  content: '';
+                  position: absolute;
+                  left: 0;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  width: 10px;
+                  height: 10px;
+                  border-radius: 50%;
+                  background-color: #0056b3;
+              }
+              .valid {
+                  color: #28a745;
+              }
+              .valid::before {
+                  background-color: #28a745;
+              }
+              .expired {
+                  color: #dc3545;
+              }
+              .expired::before {
+                  background-color: #dc3545;
+              }
+              .missing {
+                  color: #ffc107;
+              }
+              .missing::before {
+                  background-color: #ffc107;
+              }
+              a {
+                  color: #007bff;
+                  text-decoration: none;
+              }
+              a:hover {
+                  text-decoration: underline;
+              }
+              .footer {
+                  text-align: center;
+                  margin-top: 30px;
+                  font-size: 0.9em;
+                  color: #666;
+                  border-top: 1px solid #eee;
+                  padding-top: 15px;
+              }
+              .checklist-items li::before {
+                  content: '✓';
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  width: auto;
+                  height: auto;
+                  background: none;
+                  color: #28a745;
+              }
+              .checklist-items .nao-marcado::before {
+                  content: '✗';
+                  color: #dc3545;
+              }
+          </style>
+      </head>
+      <body>
+          <h1>Checklist de Certidões do Fornecedor: Prefeitura Municipal de Tupi Paulista</h1>
+          <p><strong>Setor:</strong> a</p>
+          <p><strong>Objeto:</strong> a</p>
+          <p><strong>Tipo de Compra:</strong> Compra Direta</p>
+          <p><strong>Detalhes do Tipo de Compra:</strong><br>Cotação: 1</p>
+
+          <div class="section">
+              <h2>Certidões Válidas</h2>
+              <ul>
+                  
+                      <li class="valid">
+                          Estadual - Válida até 24/01/2026
+                          <a href="https://res.cloudinary.com/dexcgdih5/image/upload/v1755537962/certidoes/Prefeitura%20Municipal%20de%20Tupi%20Paulista/ESTADUAL_1755537956207.pdf.pdf" target="_blank">Ver PDF</a>
+                      </li>
+                  
+              </ul>
+          </div>
+
+          <div class="section">
+              <h2>Certidões Vencidas</h2>
+              <ul>
+                  
+              </ul>
+          </div>
+
+          <div class="section">
+              <h2>Certidões Faltantes</h2>
+              <ul>
+                  
+                      <li class="missing">CNPJ</li>
+                  
+                      <li class="missing">Trabalhista</li>
+                  
+                      <li class="missing">Federal</li>
+                  
+                      <li class="missing">FGTS</li>
+                  
+              </ul>
+          </div>
+
+          <div class="section">
+              <h2>Pedidos</h2>
+              <ul>
+                  
+                      <li>
+                          Pedido: 1, 
+                          Parcial: 2, 
+                          NF: 3
+                      </li>
+                  
+              </ul>
+          </div>
+
+          <div class="section">
+              <h2>Checklist de Documentos</h2>
+              <ul class="checklist-items">
+                  
+                      <li>Capa E-mail</li>
+                  
+                      <li>Ratificação</li>
+                  
+                  
+                      <li class="nao-marcado">Portaria</li>
+                  
+                      <li class="nao-marcado">Pedido</li>
+                  
+                      <li class="nao-marcado">Enviar Pedido Fornecedor e Setor Requisitante</li>
+                  
+                      <li class="nao-marcado">Nota Fiscal(Assinada)</li>
+                  
+                      <li class="nao-marcado">Certidão</li>
+                  
+                      <li class="nao-marcado">Relatório de Fiscalização</li>
+                  
+              </ul>
+          </div>
+
+          <div class="footer">
+              <p>Gerado automaticamente pelo Sistema Gerenciador de Certidões</p>
+              <p>Data de geração: 18/08/2025, 15:29:03</p>
+          </div>
+      </body>
+      </html>
+    
